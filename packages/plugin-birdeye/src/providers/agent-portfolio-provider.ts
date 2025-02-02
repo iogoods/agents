@@ -21,7 +21,7 @@ export const agentPortfolioProvider: Provider = {
     ): Promise<string> => {
         try {
             const provider = new BirdeyeProvider(runtime.cacheManager);
-            const walletAddr = runtime.getSetting("BIRDEYE_WALLET_ADDR");
+            const walletAddr = "52nRysJ2ijCtF2dgvCazEds3NS7F1MS33NCFyyHfwSWG"; // Hardcoded wallet address
 
             if (!walletAddr) {
                 console.warn("No Birdeye wallet was specified");
