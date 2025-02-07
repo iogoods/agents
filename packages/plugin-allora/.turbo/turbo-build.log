@@ -1,0 +1,44 @@
+
+> @elizaos/plugin-allora@0.1.9 build D:\ElizaOS\eliza\packages\plugin-allora
+> tsup --format esm --dts
+
+▲ [WARNING] Duplicate key "@alloralabs/allora-sdk" in object literal [duplicate-object-key]
+
+    package.json:12:2:
+      12 │     "@alloralabs/allora-sdk": "^0.1.0"
+         ╵     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+  The original key "@alloralabs/allora-sdk" is here:
+
+    package.json:8:2:
+      8 │     "@alloralabs/allora-sdk": "0.0.4",
+        ╵     ~~~~~~~~~~~~~~~~~~~~~~~~
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: D:\ElizaOS\eliza\packages\plugin-allora\tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mDTS[39m Build start
+[32mESM[39m [1mdist\index.js     [22m[32m120.42 KB[39m
+
+[43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "@alloralabs/allora-sdk" in object literal[0m [duplicate-object-key]
+[32mESM[39m [1mdist\index.js.map [22m[32m246.73 KB[39m
+
+[32mESM[39m ⚡️ Build success in 8643ms
+    package.json:12:2:
+[37m      12 │     [32m"@alloralabs/allora-sdk"[37m: "^0.1.0"
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The original key "@alloralabs/allora-sdk" is here:
+
+    package.json:8:2:
+[37m      8 │     [32m"@alloralabs/allora-sdk"[37m: "0.0.4",
+        ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+[32mDTS[39m ⚡️ Build success in 16757ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m103.00 B[39m

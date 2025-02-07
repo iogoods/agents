@@ -1,0 +1,29 @@
+
+> @elizaos/core@0.1.9 build D:\ElizaOS\eliza\packages\core
+> tsup --format esm --dts
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: D:\ElizaOS\eliza\packages\core\tsup.config.ts
+[34mCLI[39m Target: node18
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mDTS[39m Build start
+[32mESM[39m [1mdist\secp256k1-QUTB2QC2.js     [22m[32m237.00 B[39m
+[32mESM[39m [1mdist\ccip-RMGHL4BL.js          [22m[32m290.00 B[39m
+[32mESM[39m [1mdist\chunk-BEDRBX3Q.js         [22m[32m157.88 KB[39m
+[32mESM[39m [1mdist\_esm-L4OBJJWB.js          [22m[32m130.56 KB[39m
+[32mESM[39m [1mdist\chunk-PR4QN5HX.js         [22m[32m1.87 KB[39m
+[32mESM[39m [1mdist\chunk-4L6P6TY5.js         [22m[32m80.02 KB[39m
+[32mESM[39m [1mdist\index.js                  [22m[32m1.47 MB[39m
+[32mESM[39m [1mdist\secp256k1-QUTB2QC2.js.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\ccip-RMGHL4BL.js.map      [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-PR4QN5HX.js.map     [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-BEDRBX3Q.js.map     [22m[32m410.56 KB[39m
+[32mESM[39m [1mdist\_esm-L4OBJJWB.js.map      [22m[32m211.08 KB[39m
+[32mESM[39m [1mdist\chunk-4L6P6TY5.js.map     [22m[32m202.99 KB[39m
+[32mESM[39m [1mdist\index.js.map              [22m[32m2.61 MB[39m
+[32mESM[39m ⚡️ Build success in 7625ms
+[32mDTS[39m ⚡️ Build success in 23169ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m112.57 KB[39m

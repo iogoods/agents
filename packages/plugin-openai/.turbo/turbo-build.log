@@ -1,0 +1,14 @@
+
+> @elizaos/plugin-openai@0.1.9 build D:\ElizaOS\eliza\packages\plugin-openai
+> tsup src/index.ts --format esm --dts --tsconfig ./tsconfig.json
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Target: es2022
+[34mESM[39m Build start
+[34mDTS[39m Build start
+[32mESM[39m [1mdist\index.js [22m[32m7.20 KB[39m
+[32mESM[39m ⚡️ Build success in 13753ms
+[32mDTS[39m ⚡️ Build success in 17494ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m128.00 B[39m

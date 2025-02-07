@@ -1,0 +1,4 @@
+
+> @elizaos/plugin-email-automation@0.1.9 build D:\ElizaOS\eliza\packages\plugin-email-automation
+> tsc --declaration --emitDeclarationOnly false --noEmit false --allowImportingTsExtensions false
+

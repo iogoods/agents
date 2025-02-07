@@ -1,0 +1,44 @@
+
+> @elizaos/plugin-binance@0.1.9 build D:\ElizaOS\eliza\packages\plugin-binance
+> tsup --format esm --dts
+
+▲ [WARNING] Duplicate key "@binance/connector" in object literal [duplicate-object-key]
+
+    package.json:23:2:
+      23 │     "@binance/connector": "^3.6.0",
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+  The original key "@binance/connector" is here:
+
+    package.json:22:2:
+      22 │     "@binance/connector": "^3.6.0",
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: D:\ElizaOS\eliza\packages\plugin-binance\tsup.config.ts
+[34mCLI[39m Target: node18
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mDTS[39m Build start
+
+[43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "@binance/connector" in object literal[0m [duplicate-object-key]
+
+    package.json:23:2:
+[37m      23 │     [32m"@binance/connector"[37m: "^3.6.0",
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~[0m
+[32mESM[39m [1mdist\index.js     [22m[32m24.62 KB[39m
+
+  The original key "@binance/connector" is here:
+
+    package.json:22:2:
+[37m      22 │     [32m"@binance/connector"[37m: "^3.6.0",
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~[0m
+[32mESM[39m [1mdist\index.js.map [22m[32m56.38 KB[39m
+[32mESM[39m ⚡️ Build success in 7739ms
+
+
+
+[32mDTS[39m ⚡️ Build success in 25764ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m131.00 B[39m

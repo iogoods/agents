@@ -1,0 +1,34 @@
+
+> @elizaos/plugin-pyth-data@0.1.9 prebuild D:\ElizaOS\eliza\packages\plugin-pyth-data
+> pnpm run pull:schema && pnpm run build:schemas
+
+
+> @elizaos/plugin-pyth-data@0.1.9 pull:schema D:\ElizaOS\eliza\packages\plugin-pyth-data
+> curl -o schema.json -z schema.json https://hermes.pyth.network/docs/openapi.json
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 27862  100 27862    0     0  52714      0 --:--:-- --:--:-- --:--:-- 53171
+
+> @elizaos/plugin-pyth-data@0.1.9 build:schemas D:\ElizaOS\eliza\packages\plugin-pyth-data
+> openapi-zod-client ./schema.json --output src/types/zodSchemas.ts
+
+Retrieving OpenAPI document from ./schema.json
+Done generating <src/types/zodSchemas.ts> !
+
+> @elizaos/plugin-pyth-data@0.1.9 build D:\ElizaOS\eliza\packages\plugin-pyth-data
+> tsup --format esm --dts
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: D:\ElizaOS\eliza\packages\plugin-pyth-data\tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mDTS[39m Build start
+[32mESM[39m [1mdist\index.js     [22m[32m29.98 KB[39m
+[32mESM[39m [1mdist\index.js.map [22m[32m126.85 KB[39m
+[32mESM[39m ⚡️ Build success in 6552ms
+[32mDTS[39m ⚡️ Build success in 19798ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m134.00 B[39m

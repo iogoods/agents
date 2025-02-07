@@ -1,0 +1,14 @@
+
+> create-eliza-app@0.1.9 build D:\ElizaOS\eliza\packages\create-eliza-app
+> unbuild
+
+[36mℹ[39m Automatically detected entries: src/index [esm] [cjs]
+[36mℹ[39m Building create-eliza-app
+[36mℹ[39m Cleaning dist directory: [36m./dist[39m
+[32m✔[39m Build succeeded for create-eliza-app
+  dist/index.cjs (total size: 1.65 kB, chunk size: 1.65 kB)
+
+  dist/index.mjs (total size: 1.64 kB, chunk size: 1.64 kB)
+
+Σ Total dist size (byte size): 3.29 kB
+

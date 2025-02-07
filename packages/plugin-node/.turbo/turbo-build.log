@@ -1,0 +1,52 @@
+
+> @elizaos/plugin-node@0.1.9 build D:\ElizaOS\eliza\packages\plugin-node
+> tsup --format esm --dts
+
+▲ [WARNING] Duplicate key "@elizaos/core" in object literal [duplicate-object-key]
+
+    package.json:33:2:
+      33 │     "@elizaos/core": "workspace:*",
+         ╵     ~~~~~~~~~~~~~~~
+
+  The original key "@elizaos/core" is here:
+
+    package.json:32:2:
+      32 │     "@elizaos/core": "workspace:*",
+         ╵     ~~~~~~~~~~~~~~~
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: D:\ElizaOS\eliza\packages\plugin-node\tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mDTS[39m Build start
+
+[43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "@elizaos/core" in object literal[0m [duplicate-object-key]
+
+    package.json:33:2:
+[37m      33 │     [32m"@elizaos/core"[37m: "workspace:*",
+         ╵     [32m~~~~~~~~~~~~~~~[0m
+
+  The original key "@elizaos/core" is here:
+
+    package.json:32:2:
+[37m      32 │     [32m"@elizaos/core"[37m: "workspace:*",
+         ╵     [32m~~~~~~~~~~~~~~~[0m
+
+
+
+[32mESM[39m [1mdist\index.js                      [22m[32m400.07 KB[39m
+[32mESM[39m [1mdist\wrapper-IANJ3KLP.js           [22m[32m130.02 KB[39m
+[32mESM[39m [1mdist\node-ponyfill-XYSXBJLI.js     [22m[32m183.00 B[39m
+[32mESM[39m [1mdist\chunk-PLDDJCW6.js             [22m[32m2.10 KB[39m
+[32mESM[39m [1mdist\node-ponyfill-XYSXBJLI.js.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\wrapper-IANJ3KLP.js.map       [22m[32m209.83 KB[39m
+[32mESM[39m [1mdist\chunk-PLDDJCW6.js.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.js.map                  [22m[32m1.06 MB[39m
+[32mESM[39m [1mdist\chunk-W2OETGYU.js             [22m[32m582.50 KB[39m
+[32mESM[39m [1mdist\chunk-W2OETGYU.js.map         [22m[32m378.84 KB[39m
+[32mESM[39m ⚡️ Build success in 37518ms
+[32mDTS[39m ⚡️ Build success in 91519ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m8.17 KB[39m
