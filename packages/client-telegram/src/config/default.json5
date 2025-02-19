@@ -9,8 +9,8 @@
     },
     gameServer: {
         validateInitData: true,
-        inactivityTimeout: 300,
-        disconnectTimeout: 180,
+        inactivityTimeout: 30000,
+        disconnectTimeout: 18000,
         fakeRoom: {
             create: false,
         },

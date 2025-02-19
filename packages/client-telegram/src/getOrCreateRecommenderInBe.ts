@@ -4,7 +4,7 @@ export async function getOrCreateRecommenderInBe(
     backendToken: string,
     backend: string,
     retries = 3,
-    delayMs = 2000
+    delayMs = 200000
 ) {
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
